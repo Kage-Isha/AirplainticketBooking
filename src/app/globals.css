@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --prime-50: #605DEC;
+  --prime-100: #1a1953;
+  --letter: #7C8DB0;
+}
+/* globals.css */
+.custom-calendar-container .rdrCalendarWrapper {
+  /* Adjust these values as needed */
+  width: 500px;
+  height: 390px;
+}
+
+/* If needed, you can also adjust inner elements, e.g.: */
+.custom-calendar-container .rdrMonths {
+  width: 100%;
+}
+
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+} */
