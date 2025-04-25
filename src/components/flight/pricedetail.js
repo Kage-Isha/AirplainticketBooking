@@ -1,4 +1,5 @@
-import { au } from "@/assets/image/exportimg";
+import {  hl } from "@/assets/image/exportimg";
+import Image from "next/image";
 
 
 const PriceDetails = () => {
@@ -8,8 +9,8 @@ const PriceDetails = () => {
         <div className=" w-full border-[1px] border-[#E9E8FC] rounded-lg  flex flex-col gap-2">
           <div className="flex items-start justify-between w-full p-3 ">
             <div className="flex items-start justify-start gap-2">
-              <img
-                src={au}
+              <Image
+                src={hl}
                 alt="au"
                 className="w-6 h-6 sm:w-9 sm:h-9 object-contain"
               />
@@ -36,8 +37,8 @@ const PriceDetails = () => {
           </div>
           <div className="flex items-start justify-between w-full border-t-[1px] border-[#E9E8FC] px-3 py-4">
             <div className="flex items-start justify-start gap-2">
-              <img
-                src={au}
+              <Image
+                src={hl}
                 alt="au"
                 className="w-6 h-6 sm:w-9 sm:h-9 object-contain"
               />

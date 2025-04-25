@@ -1,4 +1,5 @@
-import { logo } from "@/assets/image/exportimg"
+import { ph } from "@/assets/image/exportimg"
+import Image from "next/image"
 
 
 const PriceGraph = () => {
@@ -15,51 +16,51 @@ const PriceGraph = () => {
               <div className="mt-5 w-full sm:w-[397px] h-[247px] flex flex-col border-[1px] border-[#E9E8FC] rounded-xl  ">
                 <div className="w-full h-10 flex gap-1 items-cente border-b-[1px] my-auto border-[#E9E8FC]">
                   <h2 className="w-[45px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC]"></h2>
-                  <h2 className="priceGridHead">232</h2>
-                  <h2 className="priceGridHead">232</h2>
-                  <h2 className="priceGridHead">232</h2>
-                  <h2 className="priceGridHead">232</h2>
-                  <h2 className="priceGridHead">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] pt-2 h-full text-center border-r-[1px]  border-[#E9E8FC] text-[#52556F] font-bold text-xs;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] pt-2 h-full text-center border-r-[1px]  border-[#E9E8FC] text-[#52556F] font-bold text-xs;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] pt-2 h-full text-center border-r-[1px]  border-[#E9E8FC] text-[#52556F] font-bold text-xs;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] pt-2 h-full text-center border-r-[1px]  border-[#E9E8FC] text-[#52556F] font-bold text-xs;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] pt-2 h-full text-center border-r-[1px]  border-[#E9E8FC] text-[#52556F] font-bold text-xs;">232</h2>
                 </div>
                 <div className="w-full h-10 flex gap-1 items-cente border-b-[1px] my-auto border-[#E9E8FC]">
-                  <h2 className="priceGridHead">3/7</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] pt-2 h-full text-center border-r-[1px]  border-[#E9E8FC] text-[#52556F] font-bold text-xs;">3/7</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
                 </div>
                 <div className="w-full h-10 flex gap-1 items-cente border-b-[1px] my-auto border-[#E9E8FC]">
-                  <h2 className="priceGridHead">3/8</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] pt-2 h-full text-center border-r-[1px]  border-[#E9E8FC] text-[#52556F] font-bold text-xs;">3/8</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
                 </div>
                 <div className="w-full h-10 flex gap-1 items-cente border-b-[1px] my-auto border-[#E9E8FC]">
-                  <h2 className="priceGridHead">3/9</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] pt-2 h-full text-center border-r-[1px]  border-[#E9E8FC] text-[#52556F] font-bold text-xs;">3/9</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
                 </div>
                 <div className="w-full h-10 flex gap-1 items-cente border-b-[1px] my-auto border-[#E9E8FC]">
-                  <h2 className="priceGridHead">3/10</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] pt-2 h-full text-center border-r-[1px]  border-[#E9E8FC] text-[#52556F] font-bold text-xs;">3/10</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
                 </div>
                 <div className="w-full h-10 flex gap-1 items-cente border-b-[1px] my-auto border-[#E9E8FC]">
-                  <h2 className="priceGridHead">3/11</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
-                  <h2 className="priceGridText">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] pt-2 h-full text-center border-r-[1px]  border-[#E9E8FC] text-[#52556F] font-bold text-xs;">3/11</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
+                  <h2 className="w-[50px] sm:w-[65px] h-full text-center border-r-[1px]  border-[#E9E8FC] p-2 text-[#6E7491] font-normal text-sm;">232</h2>
                 </div>
               </div>
             </div>
@@ -70,8 +71,8 @@ const PriceGraph = () => {
                 </h1>
               </div>
               <div className="w-full h-full">
-                <img
-                  src={logo}
+                <Image
+                  src={ph}
                   alt="Price-history"
                   className="w-full h-full object-contain"
                 />
@@ -92,7 +93,7 @@ const PriceGraph = () => {
                   $750, but could rise 18% to $885 in two weeks.
                 </p>
                 <p className="text-[#A1B0CC] ">
-                  Tripma analyzes thousands of flights, prices, and trends to
+                  GhumGham analyzes thousands of flights, prices, and trends to
                   ensure you get the best deal.
                 </p>
               </div>

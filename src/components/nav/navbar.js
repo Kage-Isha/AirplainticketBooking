@@ -29,16 +29,16 @@ const Navbar = () => {
                     )}
                     {toggle && (
                         <ul className="absolute w-32 z-10 h-fit bg-[#FFFFFF] shadow-xl top-14 left-0 text-[#7C8DB0] flex flex-col gap-2 items-start p-4 scaleUp">
-                            <A name="Flights" >
+                            <A name="Flights" href="/option">
                                 <li>Flights</li>
                             </A>
-                            <A name="About us" >
+                            <A name="About us" href="/">
                                 <li>About us</li>
                             </A>
-                            <A name="Contact us" >
+                            <A name="Contact us" href="/">
                                 <li>Contact us</li>
                             </A>
-                            <A name="Sign in" >
+                            <A name="Sign in" href="/">
                                 <li>Sign in </li>
                             </A>
 
@@ -58,16 +58,16 @@ const Navbar = () => {
             </div>
             <div className=" md:flex items-center space-x-8">
                 <ul className="hidden md:flex items-center space-x-8 text-[#7C8DB0]">
-                    <A name="Flights" >
+                    <A name="Flights" href="/option">
                         <li>Flights</li>
                     </A>
-                    <A name="About us" >
+                    <A name="About us" href="/">
                         <li>About us</li>
                     </A>
-                    <A name="Contact us" >
+                    <A name="Contact us" href="/">
                         <li>Contact us</li>
                     </A>
-                    <A name="Sign in" >
+                    <A name="Sign in" href="/">
                         <li>Sign in </li>
                     </A>
                 </ul>

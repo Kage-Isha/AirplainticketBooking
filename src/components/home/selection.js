@@ -17,6 +17,7 @@
 //     );
 // };
 // export default Menu;
+"use client";
 import { ad, au } from "@/assets/image/exportimg";
 import AirportSelect from "./select";
 import FlightDatePicker from "./calander";

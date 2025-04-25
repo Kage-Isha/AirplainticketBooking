@@ -1,9 +1,22 @@
 import au from './airplainup.png';
 import ad from './ariplain.png';
 import dt from './Date.png';
-import peop from './people.png';
 import logo from './logo.png';
+import peop from './people.png';
+import ph from './Pricehistory.png';
 import fb from './facebook.png';
 import ig from './instagram.png';
+import dl from './DeltaAirlines.png';
+import hl from './HawaiianAirlines.png';
+import jl from './JapanAirlines.png';
+import ql from './QantasAirlines.png';
+import ul from './UnitedAirlines.png';
+import fl from './AirFrance.png';
 import tw from './twitter.png';
-export {au,ad,dt,peop,logo,fb,ig,tw}
+import map from './Map1.png';
+import bg from './bag.png';
+import icf from './iconfacebook.png';
+import p3 from './Plane3.png';
+import es from './EconomySeats.png';
+import bs from './BusinessSeats.png';
+export {au,dl,fl,hl,jl,ql,ul,ad,dt,peop,logo,fb,ig,tw,ph,map,icf,bg,p3,es,bs}
