@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import Link from 'next/link';
 import { FaUser, FaEnvelope, FaLock, FaLockOpen } from 'react-icons/fa';
@@ -76,7 +76,7 @@ export default function SignUpPage() {
             </button>
             <br/>
             <br/>
-            <Link href="/signup">
+            <Link href="/signin">
             <button
               type="submit"
               className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-md transition-colors duration-200"
