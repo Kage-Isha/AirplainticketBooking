@@ -19,4 +19,5 @@ import icf from './iconfacebook.png';
 import p3 from './Plane3.png';
 import es from './EconomySeats.png';
 import bs from './BusinessSeats.png';
-export {au,dl,fl,hl,jl,ql,ul,ad,dt,peop,logo,fb,ig,tw,ph,map,icf,bg,p3,es,bs}
+import ab from './abut.jpg';
+export {au,dl,fl,hl,jl,ql,ul,ad,dt,peop,logo,fb,ig,tw,ph,map,icf,bg,p3,es,bs,ab}

@@ -1,22 +1,3 @@
-// import { ad, au } from "@/assets/image/exportimg";
-// import AirportSelect from "./select";
-// import FlightDatePicker from "./calander";
-// import NumberPicker from "./increaseAM";
-// import Link from "next/link";
-// const Menu = () => {
-//     return (
-//         <div className="flex-col w-full lg:flex items-center justify-center ">
-//             <AirportSelect lable="From where?" src={au} />
-//             <AirportSelect lable="Where to?" src={ad} />
-//             <FlightDatePicker />
-//             <NumberPicker />
-//             {/* <Link to="/option"> */}
-//             <button className="w-full text-white  lg:text-white text-xl bg-prime-50 p-2 h-[60px]  rounded hover:bg-prime-100 " >Search</button>
-//             {/* </Link> */}
-//         </div>
-//     );
-// };
-// export default Menu;
 "use client";
 import { ad, au } from "@/assets/image/exportimg";
 import AirportSelect from "./select";
@@ -31,11 +12,12 @@ const Menu = () => {
             <AirportSelect lable="Where to?" src={ad} />
             <FlightDatePicker />
             <NumberPicker />
-            {/* <Link to="/option"> */}
-            <button className="w-full lg:w-auto text-white text-xl bg-prime-50 p-2 h-[48px] rounded hover:bg-prime-100">
-                Search
-            </button>
-            {/* </Link> */}
+            <Link href="/option" className="block w-full lg:w-[70px]">
+                <button className="w-full text-white text-xl bg-prime-50 p-2 h-[48px] rounded hover:bg-prime-100 lg:w-full hover:text-prime-50 hover:bg-white hover:border-2 hover:border-prime-50 transition-all duration-200">
+                    Search
+                </button>
+            </Link>
+
         </div>
     );
 };

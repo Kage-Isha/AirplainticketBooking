@@ -7,21 +7,16 @@ import { useState } from "react";
 import { MdOutlineClose } from 'react-icons/md';
 import { BiMenuAltLeft } from 'react-icons/bi';
 import Signin from "./sign";
+import Link from "next/link";
 const Navbar = () => {
     // const location = useLocation();
     const [toggle, setToggle] = useState(false);
     const [signin, setSignin] = useState(false);
 
-    const loactionPath = (route) => {
-        if (route === location.pathname) {
-            return true
-        }
-    }
-
     return (
         <nav className="sticky top-[0px] bg-background  w-full flex flex-row items-center justify-between px-4 py-2 ">
             <div className="flex justify-between items-center p-4 lg:items-center">
-                <div className="relative lg:hidden flex items-center">
+                <div className="relative md:hidden flex items-center">
                     {toggle ? (
                         <MdOutlineClose src={close} alt="close" className="w-7 h-7 text-letter cursor-pointer" onClick={() => setToggle(false)} />
                     ) : (
@@ -32,13 +27,13 @@ const Navbar = () => {
                             <A name="Flights" href="/option">
                                 <li>Flights</li>
                             </A>
-                            <A name="About us" href="/">
+                            <A name="About us" href="/about">
                                 <li>About us</li>
                             </A>
-                            <A name="Contact us" href="/">
+                            <A name="Contact us" href="/contact">
                                 <li>Contact us</li>
                             </A>
-                            <A name="Sign in" href="/">
+                            <A name="Sign in" href="/signin">
                                 <li>Sign in </li>
                             </A>
 
@@ -48,6 +43,7 @@ const Navbar = () => {
                         </ul>
                     )}
                 </div>
+                <Link href="/">
                 <Image
                     width="1000"
                     height="1000"
@@ -55,19 +51,20 @@ const Navbar = () => {
                     src={logo}
                     alt="Logo"
                 />
+                </Link>
             </div>
             <div className=" md:flex items-center space-x-8">
                 <ul className="hidden md:flex items-center space-x-8 text-[#7C8DB0]">
                     <A name="Flights" href="/option">
                         <li>Flights</li>
                     </A>
-                    <A name="About us" href="/">
+                    <A name="About us" href="/about">
                         <li>About us</li>
                     </A>
-                    <A name="Contact us" href="/">
+                    <A name="Contact us" href="/contact">
                         <li>Contact us</li>
                     </A>
-                    <A name="Sign in" href="/">
+                    <A name="Sign in" href="/signin">
                         <li>Sign in </li>
                     </A>
                 </ul>

@@ -1,3 +1,4 @@
+"use client";
 import { fb, ig, tw } from "@/assets/image/exportimg";
 import Image from "next/image";
 import Fa from "./Fhover";
@@ -13,9 +14,9 @@ const Fotter = () => {
                 <Image width="1000" height="1000" className="h-[24px] w-[24px] m-2" src={tw} alt="tw" />
             </div>
             <div className="text-[1.6rem] text-letter">
-                <Fa name="Home" />
-                <Fa name="About" />
-                <Fa name="Contact" />
+                <Fa name="Home" href="/"/>
+                <Fa name="About" href="/about"/>
+                <Fa name="Contact" href="/contact"/>
             </div>
             <div className="text-[1rem] text-letter">2025 All rights reserverd, Airplane ticket booking site. Developed by- <span> Sujen Maharjan</span></div>
         </footer>

@@ -36,7 +36,7 @@
 //       <header className="flex flex-col justify-start">
 //         <div className="flex items-center justify-between">
 //           <h1 className="text-[#6E7491] text-[20px] sm:text-[24px] leading-5 sm:leading-8 font-bold ">
-//             Sign up for Tripma
+//             Sign up for GhumGham
 //           </h1>
 //           <MdOutlineClose
 //             className="text-[#6E7491] cursor-pointer"
@@ -44,7 +44,7 @@
 //           />
 //         </div>
 //         <p className=" text-sm sm:text-[18px] leading-4 sm:leading-6 text-[#7C8DB0] mt-2">
-//           Tripma is totally free to use. Sign up using your email address or
+//           GhumGham is totally free to use. Sign up using your email address or
 //           phone number below to get started.
 //         </p>
 //       </header>
@@ -123,6 +123,7 @@
 
 // export default Signin;
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import { MdOutlineClose } from "react-icons/md";
@@ -220,6 +221,7 @@ const Signin = ({ signin, setSignin }) => {
             </div>
 
             {/* Submit Button */}
+            
             <button
               className="w-full bg-[#605DEC] text-[#FAFAFA] rounded py-3 outline-none border-none"
               onClick={submitInputs}

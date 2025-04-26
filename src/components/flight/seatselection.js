@@ -126,9 +126,11 @@ const SeatSelect = () => {
               <h1 className="text-[#6E7491] text-sm sm:text-xl">9F</h1>
             </div>
             <div className="flex flex-row items-center gap-3">
+              <Link href='/'>
               <button className="hidden sm:block text-[#605DEC] border-[1px] border-[#605DEC] p-2 sm:px-3 sm:py-2 rounded hover:bg-[#605DEC] hover:text-[#FAFAFA] transition-all duration-200 text-xs sm:text-base">
                 Save and close
               </button>
+              </Link>
               <Link href='/payment'>
               <button className="text-[#FAFAFA] border-[1px] border-[#605DEC] bg-[#605DEC] p-2 sm:px-3 sm:py-2 rounded hover:text-[#605DEC] hover:bg-white transition-all duration-200 text-xs  sm:text-base">
                 Payment
